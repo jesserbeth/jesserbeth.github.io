@@ -1,56 +1,86 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Jessica Smith</title>
-<link href="styles/main.css" rel="stylesheet" type="text/css">
-<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="//use.edgefonts.net/advent-pro.js" type="text/javascript"></script>
+  <title>Jessica Smith</title>
+  <meta name="description" content="Graduate Student, University of Nevada, Reno" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
 
 <body>
-<div id="wrapper">
-  <header id="title">
-    <h1>Nishok Yadav</h1>
-  </header>
-  <nav id="mainnav">
-    <ul>
-      <li><a id="first" href="index.html" class="thispage">Home</a></li>
-      <li><a href="education.html">Education</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="experience.html">Experience</a></li>
-      <li><a href="skills.html">Skills</a></li>
-      <li><a id="last" href="aboutme.html">About Me</a></li>
-    </ul>
-  </nav>
-  <br>
-  <br>
   <div id="main">
-  <img src="images/headshot.jpg"  alt="" width="268" height="320"/>
-  <br>
-  <hr>
-  <article id="viewresume"><a href="resume.html">Click here to view my resume.</a></article>
-  <hr>
-  <article id="purpose">
-    <h2>Bio</h2>
-    <p>I am currently a PhD Student at the University of Nevada, Reno. My area of interest for research lies in Socially Assistive Robotics (SAR). SAR is an incredible field which is appealing to me because I find motivation in work that impacts the lives of people. Human-Robot Interaction (HRI) interests me because of the incredible potential to address real-world problems. Specifically, SAR is a division of HRI that deals in helping people. It is a new field that has many avenues that have not yet been explored, and each discovery will make an impact on human lives in a significant way. </p>
-  </article>
-<article id="research">
-    <h2>Education</h2>
-    <p> BS in Computer Science and Engineering from the University of Nevada, Reno (May 2014) </p>
-  </article>
-<article id="outreach">
-    <h2>Outreach</h2>
-    <p> As a part of my long-term goal of inspiring young minds, I have worked extensively with outreach programs, and plan to continue my efforts to increase awareness and interest in Computer Science and Engineering. Robotics is a specialization within computer science which lends itself easily to outreach. More specifically, applications of SAR can be found in a wide range of industries. Examples of such applications may be found in medical and educational platforms and their visible nature make it an ideal form for educational platforms for the public. However, the problem of connecting an autonomous machine with the dynamic environment surrounding humans is a large roadblock in the progression of robots into our daily lives. HRI is exciting and difficult, and inspires me because it will help the community at large. I aim to make an impact in the community, both in research and in outreach.
- Many aspects of computer science are theoretical in nature, but robots are tangible and exciting agents. Children and adults alike enjoy interacting with robots. Educating children and young adults about science and engineering is a passion of mine, one which I plan to pursue throughout my educational and professional career. 
-</p>
-  </article>
-
-
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Jessica Smith<span class="logo_colour"></span></a></h1>
+          <h2>University of Nevada, Reno</h2>
+        </div>
+      </div>
+      <nav>
+        <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="examples.html">Bio</a></li>
+            <li><a href="page.html">Cirriculum Vitae</a></li>
+            <li><a href="another_page.html">Publications</a></li>
+            <li><a href="#">Example Drop Down</a>
+              <ul>
+                <li><a href="#">Drop Down One</a></li>
+                <li><a href="#">Drop Down Two</a>
+                  <ul>
+                    <li><a href="#">Sub Drop Down One</a></li>
+                    <li><a href="#">Sub Drop Down Two</a></li>
+                    <li><a href="#">Sub Drop Down Three</a></li>
+                    <li><a href="#">Sub Drop Down Four</a></li>
+                    <li><a href="#">Sub Drop Down Five</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down Three</a></li>
+                <li><a href="#">Drop Down Four</a></li>
+                <li><a href="#">Drop Down Five</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+		  <span class="left"><img src="images/headshot.jpg" alt="" width="180" height="213" /></span>
+          <p></a></p>
+        </div>
+      </div>
+      <div class="content">
+        <h1>HOME</h1>
+        <p>I am currently a graduate student at the University of Nevada, Reno. My area of interest for research is in Socially Assistive Robotics (SAR). I am also involved in extensive outreach efforts in the Washoe County greater area</strong>.</p>
+      </div>
+    </div>
+    <div id="scroll">
+      <a title="Scroll to the top" class="top" href="#"><img src="images/top.png" alt="top" /></a>
+    </div>
+    <footer>
+	<p>Jessica Smith</strong>.</p>
+	<p>University of Nevada, Reno</strong>.</p>
+	<p>jesserbeth@gmail.com</strong>.</p>
+      <p>Copyright &copy; CSS3_contrast | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
   </div>
-  <hr>
-  <footer>
-    Created by Nishok Yadav, February 2013
-  </footer>
-</div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+      $('.top').click(function() {$('html, body').animate({scrollTop:0}, 'fast'); return false;});
+    });
+  </script>
 </body>
 </html>
