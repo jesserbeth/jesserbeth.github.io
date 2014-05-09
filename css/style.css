@@ -143,12 +143,12 @@ ol li {
 
 header { 
   background: #1D1D1D url(../images/dark.png);
-  height: 200px;
+  height: 220px;
 }
 
 #logo { 
   width: 1000px;
-  height: 180px;
+  height: 200px;
   background: transparent;
   color: #888;
   padding: 20px 0 0 0;  
@@ -185,7 +185,13 @@ header {
 #logo_text h2 { 
   font-size: 140%;
   padding: 0 0 0 0;
-  color: #FFF;
+  color: #D9E9F1;
+}
+
+#logo_text h3 { 
+  font-size: 120%;
+  padding: 0 0 0 0;
+  color: #BCD8E6;
 }
 
 nav { 
