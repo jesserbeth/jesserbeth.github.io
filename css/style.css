@@ -527,3 +527,8 @@ ul#nav li a:hover,ul#nav li a:focus {
   color: #FFF;
   text-decoration: underline;
 }
+
+.hangingindent {
+    padding-left: 22px ;
+    text-indent: -22px ;
+}
